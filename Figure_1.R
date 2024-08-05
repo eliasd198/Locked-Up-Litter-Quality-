@@ -3,7 +3,7 @@
 ###########################################################################################################
 
 # Set working Directory #
-setwd("N:\\LockedUp\\Zenodo Upload")
+setwd()
 
 # Load Required Packages #
 library(olsrr)
@@ -171,8 +171,6 @@ Figure_1 <- Figure_1A/Figure_1B +
 Figure_1
 
 # Save Plot
-setwd("N:\\LockedUp\\Figures\\Revised_Figures")
-
 ggsave("Figure_1.tiff", Figure_1, height = 20, width = 30, units = "cm", compression="lzw")
 
 # Paper Statistics ####
